@@ -10,7 +10,7 @@ export interface Movie {
   boxOfficeRevenueInMillions: number;
 }
 
-export const MOVIES_QK = "MOVIE";
+export const MOVIES_QK = "MOVIES";
 
 export const useMoviesList = () => {
   return useQuery<Movie[]>([MOVIES_QK], async () => {

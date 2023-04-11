@@ -19,7 +19,6 @@ function App() {
   const [movieId, setMovieId] = useState<string>();
   const { data: moviesList = [] } = useMoviesList();
 
-  console.log(movieId);
   return (
     <ChakraProvider theme={theme}>
       <BrowserRouter>
